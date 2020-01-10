@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    border: 0;
+}
 body {
     background-color: grey;
 }
@@ -22,4 +28,10 @@ li a {
 
 h1{
     text-align: center;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
 }
