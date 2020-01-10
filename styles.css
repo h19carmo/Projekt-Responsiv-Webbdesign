@@ -50,6 +50,8 @@ h1{
     text-align: center;
 }
 
+
+
 .footer{
     position: absolute;
     display: flex;
@@ -58,4 +60,12 @@ h1{
     justify-content: space-evenly;
     bottom: 0;
     width: 100%;
+}
+
+.Logga{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
