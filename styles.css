@@ -29,11 +29,14 @@ li{
 
 }
 
-ul {
+nav {
     display: flex;
     padding: 0;
     justify-content: space-evenly;
-    overflow: hidden;
+}
+ul{
+
+    list-style: none
 }
 
 li a {
