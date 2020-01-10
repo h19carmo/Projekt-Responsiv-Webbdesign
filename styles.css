@@ -8,6 +8,8 @@ body {
     background-color: grey;
     position: relative;
     min-height: 100vh;
+    top: 0;
+    left: 0;
 
 }
 
@@ -38,7 +40,7 @@ h1{
 }
 
 .footer{
-    position: sticky;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
