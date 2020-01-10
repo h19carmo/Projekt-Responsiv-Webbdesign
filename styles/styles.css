@@ -96,5 +96,9 @@ main button{
     bottom: 0;
 }
 .kundkorg{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.kundkorg-produkt{
+    width: 80%;
+    padding-bottom: 20px;
 }
