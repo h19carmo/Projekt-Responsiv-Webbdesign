@@ -1,3 +1,21 @@
 body {
     background-color: grey;
 }
+
+li{
+    list-style-type: none;
+
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
