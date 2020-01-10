@@ -100,5 +100,9 @@ main button{
 }
 .kundkorg-produkt{
     width: 80%;
+    max-width: 300px;
     padding-bottom: 20px;
+}
+.kundkorg-produkt img{
+    max-width: 400px;
 }
