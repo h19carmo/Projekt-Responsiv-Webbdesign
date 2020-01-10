@@ -4,6 +4,7 @@
     padding:0;
     border: 0;
 }
+
 body {
 /*    background-color: grey;*/
     position: relative;
@@ -11,20 +12,21 @@ body {
     top: 0;
     left: 0;
     color: black;
-
 }
+
 button {
-
     margin: 2px;
-
 }
+
 a {
     text-decoration: none;
     color: blue;
 }
+
 a:visited{
     color: blue;
 }
+
 a:active{
     color:blue;
 }
@@ -41,6 +43,7 @@ nav ul{
     justify-content: space-evenly;
     flex-direction: row;
 }
+
 ul{
 
     list-style: none
@@ -59,8 +62,6 @@ li a:hover{
 h1{
     text-align: center;
 }
-
-
 
 .footer{
     position: absolute;
@@ -95,14 +96,28 @@ main button{
     margin-bottom: 0;
     bottom: 0;
 }
+
 .kundkorg{
     padding-bottom: 20px;
 }
+
 .produkt{
     width: 80%;
     max-width: 300px;
     padding-bottom: 20px;
 }
+
 .kundkorg-produkt img{
     max-width: 400px;
+}
+
+.nature{
+    height: 300px;
+}
+
+.imagebox{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
 }
