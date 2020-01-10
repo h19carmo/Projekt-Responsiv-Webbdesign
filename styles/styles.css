@@ -29,10 +29,11 @@ li{
 
 }
 
-nav {
+nav ul{
     display: flex;
     padding: 0;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 ul{
 
@@ -71,4 +72,8 @@ h1{
     margin: 0;
     padding: 0;
     position: relative;
+}
+.icon{
+    width: 20px;
+    height: 20px;
 }
