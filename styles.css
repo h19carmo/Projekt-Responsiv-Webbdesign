@@ -10,8 +10,19 @@ body {
     min-height: 100vh;
     top: 0;
     left: 0;
-
+    color: black;
 }
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color:blue;
+}
+
 
 li{
     list-style-type: none;
@@ -42,7 +53,7 @@ h1{
 .footer{
     position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*@media*/
     flex-wrap: wrap;
     justify-content: space-evenly;
     bottom: 0;
