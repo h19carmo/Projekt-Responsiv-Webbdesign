@@ -11,6 +11,7 @@ body {
     top: 0;
     left: 0;
     color: black;
+
 }
 button {
 
@@ -86,10 +87,18 @@ h1{
 main {
     display: flex;
     justify-content: center;
+
 }
 
 main button{
     
     margin-bottom: 0;
     bottom: 0;
+}
+.kundkorg{
+    padding-bottom: 20px;
+}
+.kundkorg-produkt{
+    width: 80%;
+    padding-bottom: 20px;
 }
