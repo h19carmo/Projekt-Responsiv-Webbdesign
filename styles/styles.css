@@ -115,7 +115,7 @@ main button{
 }
 
 .produkt{
-    width: 33%;
+    width: 33.333%;
     max-width: 300px;
     padding-bottom: 50px;
     justify-content: center;
@@ -135,6 +135,7 @@ main button{
 }
 
 .kundkorg-produkt img{
+    width: 100%;
     max-width: 400px;
 }
 /*--------------------slide kod-----------------------*/
