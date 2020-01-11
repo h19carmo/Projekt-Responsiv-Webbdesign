@@ -104,12 +104,34 @@ main button{
 
 .kundkorg{
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: row wrap;
+
+}
+.kundkorg-produkt {
+    background-color: aqua;
+    width: 33%;
+    max-width: 300px;
 }
 
 .produkt{
-    width: 80%;
+    width: 33%;
     max-width: 300px;
     padding-bottom: 50px;
+    justify-content: center;
+}
+
+.produkter {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.produktsida {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .kundkorg-produkt img{
@@ -176,6 +198,8 @@ nav {
     height: 40px;
     border: black solid 2px;
 }
+
+/*Kod för valideringsikonerna för CSS och HTML*/
 
 .footer .Validate{
     display: flex;
