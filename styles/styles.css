@@ -151,8 +151,8 @@ nav {
 .footer .Validate{
     display: flex;
     flex-direction: column;
-    position: relative;
-    right: 45%;
+    position: absolute;
+    left: 0;
 }
 /*Brytningspunkt för skärmar som är mindre än 600 pixlar*/
 @media screen and (max-width: 600px) {
