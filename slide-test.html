@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>slide test</title>
+    </head>
+    <style type="text/css">
+
+    .imagebox2{
+        min-height: 300px;
+        min-width: 300px;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+    }
+
+    .nature{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    #left{
+        position: absolute;
+        display: block;
+        margin-left: 0;
+        left: 0;
+        top:50%;
+        
+    }
+    #right{
+        position: absolute;
+        display: block;
+        margin-right: 0;
+        right: 0;
+        top:50%;
+        z-index: 100;
+        
+ 
+    }
+    </style>
+<body>
+        
+    <header>
+            
+        <nav>
+            <ul>
+                <li><a href="Logga.html"><img class="icon" src="./images/Book.png"></a></li>        
+                <li><h1 class="main-header">Webbshopp</h1></li>
+                <li><a href="index.html"><img class="icon" src="./images/Home.jpg"></a></li>
+                <li><a href="produkter.html"><img class="icon" src="./images/Shop.png"></a></li>
+                <li><a href="Kundkorg.html"><img class="icon" src="./images/cart.png"></a></li>
+            </ul>       
+        </nav>    
+    </header>
+
+<main>
+    <div class="imagebox2">
+            <img class="nature" src="./images/to.jpg">
+            <img class="nature" src="./images/fika.jpg">
+            <img class="nature" src="./images/morberg.jpg">
+
+        <div id="left"><button onclick="myShow.previous()">Föregående</button></div>
+        <div id="right"><button onclick="myShow.next()">Nästa</button></div>
+    
+
+    </div>
+    <script>
+        myShow = w3.slideshow(".nature", 0);
+    </script>
+</main>
+<footer class="footer">Validera<a href="https://jigsaw.w3.org/css-validator/"><img class="icon" src="./images/CSS.png"></a> , <a href="https://validator.w3.org/"><img class="icon" src="./images/Html.png"></a></footer>
+</body>
+</html>
