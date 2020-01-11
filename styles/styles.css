@@ -20,15 +20,15 @@ button {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #000;
 }
 
 a:visited{
-    color: blue;
+    color: #000;
 }
 
 a:active{
-    color:blue;
+    color:#000;
 }
 
 
@@ -51,6 +51,13 @@ ul{
 li a {
     display: flex;
     justify-content: space-evenly;
+<<<<<<< HEAD
+    /*color: white;*/
+}
+
+li a:hover{
+    /*color:white;*/
+=======
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -58,6 +65,7 @@ li a {
 
 li a:hover{
     color:black;
+>>>>>>> 0ee09ef75e9e80dccf3fe49f908f96d1e4c6a5a8
 }
 
 h1{
