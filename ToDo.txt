@@ -1,0 +1,11 @@
+1. sticky header
+
+2. fixa footer
+
+3. dela upp css på flera *.css
+
+4. eget javascripit till slide.
+
+5. centrera innehållet i .produkter klassen. (padding: auto; ???)
+
+6.
