@@ -90,7 +90,7 @@ h1{
 main {
     display: flex;
     justify-content: center;
-
+    margin-top: 10px;
 }
 
 main button{
@@ -141,9 +141,8 @@ main button{
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 10px;
     height: 40px;
     border: black solid 2px;
-
 }
 
