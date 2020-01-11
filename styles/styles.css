@@ -34,7 +34,6 @@ a:active{
 
 li{
     list-style-type: none;
-
 }
 
 nav ul{
@@ -133,12 +132,18 @@ main button{
 .top {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
     border: black solid 2px;
 }
 
 .topicon {
     height: 30px;
     width: 30px;
+}
+
+nav {
+    margin-top: 20px;
+    height: 40px;
+    border: black solid 2px;
+
 }
 
