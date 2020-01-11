@@ -115,26 +115,46 @@ main button{
 .kundkorg-produkt img{
     max-width: 400px;
 }
+/*--------------------slide kod-----------------------*/
 
 .nature{
     height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.imagebox{
-    /*
+.imagebox{/*
     display: flex;
     flex-direction: column;
     justify-items: center;
-    padding: 40px;
-    */
+    padding: 40px;*/
     min-height: 300px;
     min-width: 300px;
     overflow: hidden;
     position: relative;
     justify-content: center;
-
 }
 
+#left{
+    position: absolute;
+    display: block;
+    margin-left: 0;
+    left: 0;
+    top:50%;
+    
+}
+#right{
+    position: absolute;
+    display: block;
+    margin-right: 0;
+    right: 0;
+    top:50%;
+    z-index: 100;
+    
+
+}
+/*--------------------------------------------------*/
 .footericons {
     width: 30px;
     height: 30px;
