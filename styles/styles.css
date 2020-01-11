@@ -101,6 +101,7 @@ main button{
     margin-bottom: 0;
     bottom: 0;
 }
+/*--------------------produkter kod-----------------------*/
 
 .kundkorg{
     padding-bottom: 50px;
@@ -116,18 +117,27 @@ main button{
 
 .produkt{
     width: 33.333%;
-    max-width: 300px;
-    min-width: 300px;
+    min-width: 360px;
     padding-bottom: 50px;
     justify-content: center;
+    justify-self: center;
+    background-color: antiquewhite;
+}
+.produkt img{
+    width: 100%;
+    display: block;
 }
 
 .produkter {
-    max-width: 100%;
+    width: 60%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    margin-top: 10px;
+    justify-items: center;
+    margin:auto;    
+    background-color: aquamarine;
+
+    
+
 }
 
 .produktsida {
@@ -140,6 +150,7 @@ main button{
     width: 100%;
     max-width: 400px;
 }
+/*----------------------------------------------------*/
 /*--------------------slide kod-----------------------*/
 
 .nature{
@@ -169,6 +180,7 @@ main button{
     top:50%;
     
 }
+
 #right{
     position: absolute;
     display: block;
@@ -176,8 +188,6 @@ main button{
     right: 0;
     top:50%;
     z-index: 100;
-    
-
 }
 /*--------------------------------------------------*/
 .footericons {
