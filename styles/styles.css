@@ -56,7 +56,7 @@ li a {
 }
 
 li a:hover{
-    color:white;
+    color:black;
 }
 
 h1{
@@ -120,4 +120,19 @@ main button{
     flex-direction: column;
     justify-items: center;
 
+}
+
+.footericons {
+    width: 25px;
+    height: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topicon {
+    height: 30px;
+    width: 30px;
 }
