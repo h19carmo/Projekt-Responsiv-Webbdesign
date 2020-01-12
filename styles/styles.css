@@ -195,6 +195,7 @@ main button{
     border-top: 2px solid #000;
     padding-top: 2px;
     background-color: rgb(241, 241, 241);
+    margin-top: 10px;
 }
 .footericons {
     width: 30px;
