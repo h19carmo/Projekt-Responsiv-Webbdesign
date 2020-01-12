@@ -1,7 +1,7 @@
 current = 0;
 imgArray=["./images/to.jpg","./images/fika.jpg","./images/morberg.jpg"];
 imgDesc=["En bra bok!","En ännu bättre bok!!","Bästa boken!!!"];
-function next(){ //alert("next\n"+document.getElementById("bild").getAttribute("src"));
+function next(){ 
     if(current < 2){ 
         document.getElementById("bild").setAttribute("src",imgArray[++current]);
         document.getElementById("caption").innerText= imgDesc[current];
@@ -13,7 +13,7 @@ function next(){ //alert("next\n"+document.getElementById("bild").getAttribute("
     } 
 }
 
-function prev(){ //alert("next\n"+document.getElementById("bild").getAttribute("src"));
+function prev(){ 
     if(current == 0){ 
         current = 2;
         document.getElementById("bild").setAttribute("src",imgArray[2]);
