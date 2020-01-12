@@ -79,13 +79,13 @@ h1{
     width: 20px;
     height: 20px;
 }
-
+/*
 main {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     padding-bottom: 50px;
-}
+}*/
 
 main button{
     
@@ -105,13 +105,25 @@ main button{
     width: 33%;
     max-width: 300px;
 }
+@media screen and (min-width: 1366px){
+    .produkt{
+        width: 33%;
+    }
+    
 
+}
+@media screen and (max-width: 1365.98px){
+    .produkt{
+        width: 50%;
+    }
+    
+
+}
 .produkt{
-    width: 33%;
     min-width: 360px;
     padding:10px 15px 15px 10px;
 /*    justify-content: center;
-    justify-self: center;*/
+    justify-self: center; */
     background-color: rgb(241, 241, 241);
     margin: 5px auto 5px;
     border-radius: 25px;
@@ -150,39 +162,43 @@ main button{
 /*--------------------slide kod-----------------------*/
 
 .nature{
-    height: 300px;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.imagebox{/*
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    padding: 40px;*/
+.imagebox{
+    margin: auto;
+    width: 80%;
     min-height: 300px;
-    min-width: 300px;
+    min-width: 360px;
     overflow: hidden;
     position: relative;
     justify-content: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
 }
-
+.imagebox-buttons{
+    width: 30px;
+    height: 30px;
+}
 #left{
     position: absolute;
-    display: block;
     margin-left: 0;
     left: 0;
-    top:50%;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 100;
+    width: 20px;
 }
 
 #right{
     position: absolute;
-    display: block;
     margin-right: 0;
     right: 0;
-    top:50%;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 100;
 }
 /*--------------------------------------------------*/
