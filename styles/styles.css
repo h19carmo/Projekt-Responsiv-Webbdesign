@@ -193,8 +193,8 @@ main button{
     justify-content: space-evenly;
     bottom: 0;
     width: 100%;
-    border-color: black solid;
-    border-top-width: 2px;
+    border-top: 2px solid #000;
+    padding-top: 2px;
     background-color: rgb(241, 241, 241);
 }
 .footericons {
