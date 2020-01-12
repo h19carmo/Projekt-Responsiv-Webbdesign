@@ -128,7 +128,7 @@ main button{
     display: flex;
     flex-flow: row wrap;
     justify-items: center;
-    margin:0 auto 50px;
+    margin:0 auto 0;
     padding-bottom: 50px;    
 }
 .produkt-namn{
@@ -193,18 +193,20 @@ main button{
     justify-content: space-evenly;
     bottom: 0;
     width: 100%;
-    border: black solid 2px;
+    border-color: black solid;
+    border-top-width: 2px;
+    background-color: rgb(241, 241, 241);
 }
 .footericons {
     width: 30px;
     height: 30px;
 }
 /*Kod för valideringsikonerna för CSS och HTML*/
-.footer .Validate{
+/*.footer .Validate{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-}
+}*/
 .top {
     display: flex;
     justify-content: space-evenly;
