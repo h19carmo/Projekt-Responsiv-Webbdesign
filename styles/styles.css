@@ -101,7 +101,6 @@ main button{
 .produkt{
     min-width: 360px;
     padding:10px 15px 15px 10px;
-    background-color: rgb(241, 241, 241);
     margin: 5px auto 5px;
     border-radius: 25px;
 }
