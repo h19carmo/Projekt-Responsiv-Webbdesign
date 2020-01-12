@@ -141,15 +141,15 @@ main button{
     justify-items: center;
     margin:0 auto 0;    
 /*    background-color: aquamarine;*/
-
 }
-
+.produkt-namn{
+    font-size: 1.2rem;
+}
 .produktsida {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
-
 .kundkorg-produkt img{
     width: 100%;
     max-width: 400px;
