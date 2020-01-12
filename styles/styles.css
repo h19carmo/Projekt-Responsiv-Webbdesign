@@ -4,7 +4,6 @@
     padding:0;
     border: 0;
 }
-
 body {
 /*    background-color: grey;*/
     position: relative;
@@ -13,29 +12,22 @@ body {
     left: 0;
     color: black;
 }
-
 button {
     margin: 2px;
 }
-
 a {
     text-decoration: none;
     color: #000;
 }
-
 a:visited{
     color: #000;
 }
-
 a:active{
     color:#000;
 }
-
-
 li{
     list-style-type: none;
 }
-
 nav ul{
     width: 100%;
     display: flex;
@@ -43,12 +35,10 @@ nav ul{
     justify-content: space-evenly;
     flex-direction: row;
 }
-
 ul{
 
     list-style: none
 }
-
 li a {
 /*    display: flex;
     justify-content: space-evenly;*/
@@ -56,18 +46,13 @@ li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
 li a:hover{
     color:black;
 }
-
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-
-
 .Logga{
     display: flex;
     justify-content: center;
@@ -93,7 +78,6 @@ main button{
     bottom: 0;
 }
 /*--------------------produkter kod-----------------------*/
-
 .kundkorg{
     padding-bottom: 50px;
     display: flex;
@@ -119,6 +103,12 @@ main button{
     
 
 }
+@media screen and (max-width: 899.98px){
+    .produkt{
+        width: 100%;
+    }
+}
+
 .produkt{
     min-width: 360px;
     padding:10px 15px 15px 10px;
@@ -127,7 +117,6 @@ main button{
     background-color: rgb(241, 241, 241);
     margin: 5px auto 5px;
     border-radius: 25px;
-
 }
 .produkt img{
 /*    width: 100%;*/
@@ -136,7 +125,6 @@ main button{
     float: left;
     margin-right: 10px
 }
-
 .produkter {
     width: 80%;
     display: flex;
@@ -160,14 +148,13 @@ main button{
 }
 /*----------------------------------------------------*/
 /*--------------------slide kod-----------------------*/
-
 .nature{
-    height: 500px;
+    height: 400px;
+    max-width: 360px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .imagebox{
     margin: auto;
     width: 80%;
@@ -192,7 +179,6 @@ main button{
     z-index: 100;
     width: 20px;
 }
-
 #right{
     position: absolute;
     margin-right: 0;
@@ -202,7 +188,6 @@ main button{
     z-index: 100;
 }
 /*--------------------------------------------------*/
-
 .footer{
     position: absolute;
     display: flex;
@@ -213,12 +198,10 @@ main button{
     width: 100%;
     border: black solid 2px;
 }
-
 .footericons {
     width: 30px;
     height: 30px;
 }
-
 .top {
     display: flex;
     justify-content: space-evenly;
@@ -228,12 +211,10 @@ main button{
     background-color: rgb(241, 241, 241);
 /*    border: black solid 2px;*/
 }
-
 .topicon {
     height: 30px;
     width: 30px;
 }
-
 nav {
     margin-top: 10px;
     border-color: black solid;
@@ -241,9 +222,7 @@ nav {
     border-bottom: 2px;
     border-style: solid;
 }
-
 /*Kod för valideringsikonerna för CSS och HTML*/
-
 .footer .Validate{
     display: flex;
     flex-direction: row;
