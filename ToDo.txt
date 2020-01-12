@@ -1,9 +1,4 @@
-1. sticky header
+1. Länka och fixa om oss sida!!!
 
-2. fixa footer
+2. Fixa PowerPoint
 
-3. dela upp css p� flera *.css
-
-4. eget javascripit till slide.
-
-6.
