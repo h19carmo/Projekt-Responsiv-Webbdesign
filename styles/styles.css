@@ -231,6 +231,13 @@ nav {
 
         nav ul{
             flex-direction: column;
+            
         }
+
+        li {
+           margin: auto; 
+        }
+
+    
 
 }
