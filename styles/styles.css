@@ -78,16 +78,6 @@ main button{
     bottom: 0;
 }
 /*--------------------produkter kod-----------------------*/
-.kundkorg{
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row wrap;
-
-}
-.kundkorg-produkt {
-    width: 33%;
-    max-width: 300px;
-}
 @media screen and (min-width: 1366px){
     .produkt{
         width: 33%;
