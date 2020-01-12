@@ -183,6 +183,14 @@ main button{
     transform: translateY(-50%);
     z-index: 100;
 }
+
+#caption{
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    background-color: #FFF
+}
 /*--------------------------------------------------*/
 .footer{
     position: absolute;

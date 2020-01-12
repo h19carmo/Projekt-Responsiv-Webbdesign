@@ -6,32 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script type="text/javascript">
-    current = 0;
-    imgArray=["./images/to.jpg","./images/fika.jpg","./images/morberg.jpg"];
-    inmDesc=["a","b","c"];
-    function next(){ //alert("next\n"+document.getElementById("bild").getAttribute("src"));
-        if(current < 2){ 
-            document.getElementById("bild").setAttribute("src",imgArray[++current]);
-        }
-        else{
-            current = 0;
-            document.getElementById("bild").setAttribute("src",imgArray[current]);
-        } 
-    }
-
-    function prev(){ //alert("next\n"+document.getElementById("bild").getAttribute("src"));
-        if(current == 0){ 
-            current = 2;
-            document.getElementById("bild").setAttribute("src",imgArray[2]);
-        }
-        else{
-            document.getElementById("bild").setAttribute("src",imgArray[--current]);
-        } 
-    }
-
-    
+    <script type="text/javascript" src="./script/slide.js">
     </script>
     <title>Start</title>
 </head>
@@ -57,10 +32,9 @@
 
     <div class="imagebox">
             <img  id ="bild" class="nature" src="./images/to.jpg">
-            <!--img class="nature" src="./images/fika.jpg">
-            <img class="nature" src="./images/morberg.jpg"-->
-        <div id="left"><button onclick="/*myShow.previous()*/ prev();"><img  class="imagebox-buttons" src="./images/arrow-left.png" alt="Föregående bild"></button></div>
-        <div id="right"><button onclick="/*myShow.next()*/ next();"><img  class="imagebox-buttons" src="./images/arrow-right.png" alt="Nästa bild"></button></div>
+        <div id="caption">En bra bok!</div>
+        <div id="left"><button onclick="prev();"><img  class="imagebox-buttons" src="./images/arrow-left.png" alt="Föregående bild"></button></div>
+        <div id="right"><button onclick="next();"><img  class="imagebox-buttons" src="./images/arrow-right.png" alt="Nästa bild"></button></div>
     
 
     </div>
