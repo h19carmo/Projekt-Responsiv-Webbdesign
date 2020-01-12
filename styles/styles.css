@@ -108,11 +108,12 @@ main button{
 .produkt{
     width: 33%;
     min-width: 300px;
-    padding:10px 0px 10px;
+    padding:10px 15px 15px 10px;
 /*    justify-content: center;
     justify-self: center;*/
     background-color: rgb(241, 241, 241);
     margin: 5px auto 5px;
+    border-radius: 25px;
 
 }
 .produkt img{
