@@ -24,3 +24,6 @@ function prev(){
         document.getElementById("caption").innerText = imgDesc[current];
     } 
 }
+function kop(){
+        alert("Tillagt i kundkorgen");
+}
