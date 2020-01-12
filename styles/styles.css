@@ -112,8 +112,6 @@ main button{
 .produkt{
     min-width: 360px;
     padding:10px 15px 15px 10px;
-/*    justify-content: center;
-    justify-self: center; */
     background-color: rgb(241, 241, 241);
     margin: 5px auto 5px;
     border-radius: 25px;
@@ -130,9 +128,8 @@ main button{
     display: flex;
     flex-flow: row wrap;
     justify-items: center;
-    margin:0 auto 50px;
+    margin:0 auto 0;
     padding-bottom: 50px;    
-/*    background-color: aquamarine;*/
 }
 .produkt-namn{
     font-size: 1.2rem;
@@ -196,12 +193,20 @@ main button{
     justify-content: space-evenly;
     bottom: 0;
     width: 100%;
-    border: black solid 2px;
+    border-color: black solid;
+    border-top-width: 2px;
+    background-color: rgb(241, 241, 241);
 }
 .footericons {
     width: 30px;
     height: 30px;
 }
+/*Kod för valideringsikonerna för CSS och HTML*/
+/*.footer .Validate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}*/
 .top {
     display: flex;
     justify-content: space-evenly;
@@ -222,12 +227,7 @@ nav {
     border-bottom: 2px;
     border-style: solid;
 }
-/*Kod för valideringsikonerna för CSS och HTML*/
-.footer .Validate{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
+
 /*Brytningspunkt för skärmar som är mindre än 600 pixlar*/
 @media screen and (max-width: 600px) {
         h1{
