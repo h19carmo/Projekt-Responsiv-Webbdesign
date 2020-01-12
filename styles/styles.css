@@ -49,8 +49,8 @@ ul{
 }
 
 li a {
-    display: flex;
-    justify-content: space-evenly;
+/*    display: flex;
+    justify-content: space-evenly;*/
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -205,6 +205,10 @@ main button{
 .top {
     display: flex;
     justify-content: space-evenly;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    background-color: rgb(241, 241, 241);
 /*    border: black solid 2px;*/
 }
 
