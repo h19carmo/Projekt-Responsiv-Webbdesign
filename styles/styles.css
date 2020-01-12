@@ -220,6 +220,7 @@ main button{
 nav {
     margin-top: 10px;
     border-color: black solid;
+    background-color: rgb(241, 241, 241);
     border-bottom: 2px;
     border-style: solid;
 }
