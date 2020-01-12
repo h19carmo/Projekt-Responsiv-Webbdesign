@@ -118,27 +118,29 @@ main button{
 
 .produkt{
     width: 33.333%;
-    min-width: 360px;
+    min-width: 300px;
     padding-bottom: 50px;
-    justify-content: center;
+/*    justify-content: center;
     justify-self: center;
-    background-color: antiquewhite;
+    background-color: antiquewhite;*/
     margin: auto;
+
 }
 .produkt img{
-    width: 100%;
-    display: block;
+/*    width: 100%;*/
+    max-height: 300px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px
 }
 
 .produkter {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
     justify-items: center;
-    margin:auto;    
+    margin:0 auto 0;    
 /*    background-color: aquamarine;*/
-
-    
 
 }
 
