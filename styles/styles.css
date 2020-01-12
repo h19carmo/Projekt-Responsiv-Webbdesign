@@ -122,6 +122,7 @@ main button{
     justify-content: center;
     justify-self: center;
     background-color: antiquewhite;
+    margin: auto;
 }
 .produkt img{
     width: 100%;
@@ -134,7 +135,7 @@ main button{
     flex-flow: row wrap;
     justify-items: center;
     margin:auto;    
-    background-color: aquamarine;
+/*    background-color: aquamarine;*/
 
     
 
