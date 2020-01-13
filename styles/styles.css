@@ -153,7 +153,7 @@ main button{
     overflow: hidden;
     position: relative;
     justify-content: center;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(249, 249, 249);
     border-radius: 25px;
 }
 .imagebox-buttons{
@@ -196,7 +196,7 @@ main button{
     width: 100%;
     border-top: 2px solid #000;
     padding-top: 2px;
-    background-color: rgb(241, 241, 241);
+/*    background-color: rgb(241, 241, 241);*/
     margin-top: 10px;
 }
 .footericons {
@@ -215,7 +215,7 @@ main button{
 /*    top: 0;*/
     width: 100%;
 /*    position: sticky;*/
-    background-color: rgb(241, 241, 241);
+    background-color: #FFF;
 /*    border: black solid 2px;*/
 }
 .topicon {
@@ -225,7 +225,7 @@ main button{
 nav {
     margin-top: 10px;
     border-color: black;
-    background-color: rgb(241, 241, 241);
+/*    background-color: rgb(241, 241, 241);*/
     border-bottom: 2px;
     border-style: solid;
 }
