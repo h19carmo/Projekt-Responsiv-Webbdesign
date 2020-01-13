@@ -4,7 +4,6 @@
     padding:0;
     border: 0;
     font-family: Arial, Helvetica, sans-serif
-
 }
 body {
     position: relative;
@@ -44,58 +43,33 @@ nav ul{
 ul{
 
     list-style: none
-}
+}/*
 li a {
     color: black;
     text-decoration: none;
 }
 li a:hover{
     color:black;
-}
+}*/
 h1{
     text-align: center;
 }
-/*
-.logga{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-*/
-/*
-.icon{
-    width: 20px;
-    height: 20px;
-}*/
-/*
-main button{
-    
-    margin-bottom: 0;
-    bottom: 0;
-}*/
 /*--------------------produkter kod-----------------------*/
 @media screen and (min-width: 1366px){
     .produkt{
         width: 33%;
     }
-    
-
 }
 @media screen and (max-width: 1365.98px){
     .produkt{
         width: 50%;
     }
-    
-
 }
 @media screen and (max-width: 899.98px){
     .produkt{
         width: 100%;
     }
 }
-
 .produkt{
     min-width: 360px;
     padding:10px 15px 15px 10px;
@@ -103,7 +77,6 @@ main button{
     border-radius: 25px;
 }
 .produkt img{
-/*    width: 100%;*/
     max-height: 300px;
     overflow: hidden;
     float: left;
@@ -139,7 +112,6 @@ main button{
     margin-right: auto;
 }
 .imagebox{
-
     margin: 30px auto 0;
     width: 80%;
     min-height: 300px;
@@ -171,11 +143,12 @@ main button{
     transform: translateY(-50%);
     z-index: 100;
 }
-
 #caption{
+    text-align: center; 
     position: absolute;
     bottom: 10px;
     transform: translateX(-50%);
+    min-width: 200px;
     left: 50%;
     background-color: #FFF
 }
@@ -196,7 +169,6 @@ main button{
     width: 30px;
     height: 30px;
 }
-
 .top {
     display: flex;
     justify-content: space-evenly;
@@ -213,7 +185,6 @@ nav {
     border-bottom: 2px;
     border-style: solid;
 }
-
 /*Brytningspunkt för skärmar som är mindre än 600 pixlar*/
 @media screen and (max-width: 600px) {
         h1{
