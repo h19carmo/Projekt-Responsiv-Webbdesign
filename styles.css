@@ -154,11 +154,11 @@ main button{
     width: 100%;
     max-width: 400px;
 }
-    .kassasida{
-        img {
-            height: 100px;
-            width: 100px;
-        }
+
+.kassasida img{   
+        height: 100px;
+        width: 100px;
+        
     }
 
 /*----------------------------------------------------*/
