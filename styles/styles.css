@@ -3,9 +3,10 @@
     margin: 0;
     padding:0;
     border: 0;
+    font-family: Arial, Helvetica, sans-serif
+
 }
 body {
-/*    background-color: grey;*/
     position: relative;
     min-height: 100vh;
     top: 0;
@@ -45,43 +46,35 @@ ul{
     list-style: none
 }
 li a {
-/*    display: flex;
-    justify-content: space-evenly;*/
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 li a:hover{
     color:black;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.Logga{
+/*
+.logga{
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     position: relative;
 }
+*/
+/*
 .icon{
     width: 20px;
     height: 20px;
-}
-/*
-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    padding-bottom: 50px;
 }*/
-
+/*
 main button{
     
     margin-bottom: 0;
     bottom: 0;
-}
+}*/
 /*--------------------produkter kod-----------------------*/
 @media screen and (min-width: 1366px){
     .produkt{
@@ -138,7 +131,7 @@ main button{
 }
 /*----------------------------------------------------*/
 /*--------------------slide kod-----------------------*/
-.nature{
+.book{
     height: 400px;
     max-width: 360px;
     display: block;
@@ -146,7 +139,8 @@ main button{
     margin-right: auto;
 }
 .imagebox{
-    margin: auto;
+
+    margin: 30px auto 0;
     width: 80%;
     min-height: 300px;
     min-width: 360px;
@@ -196,27 +190,18 @@ main button{
     width: 100%;
     border-top: 2px solid #000;
     padding-top: 2px;
-/*    background-color: rgb(241, 241, 241);*/
     margin-top: 10px;
 }
 .footericons {
     width: 30px;
     height: 30px;
 }
-/*Kod för valideringsikonerna för CSS och HTML*/
-/*.footer .Validate{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}*/
+
 .top {
     display: flex;
     justify-content: space-evenly;
-/*    top: 0;*/
     width: 100%;
-/*    position: sticky;*/
     background-color: #FFF;
-/*    border: black solid 2px;*/
 }
 .topicon {
     height: 30px;
@@ -225,7 +210,6 @@ main button{
 nav {
     margin-top: 10px;
     border-color: black;
-/*    background-color: rgb(241, 241, 241);*/
     border-bottom: 2px;
     border-style: solid;
 }
@@ -236,7 +220,7 @@ nav {
             font-size: 20px;
         }
 
-        .topicons {
+        .topicon {
             height: 15px;
             width: 15px;
         }
